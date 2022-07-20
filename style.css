@@ -1,0 +1,60 @@
+/* common area */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* custom property */
+:root{
+    --white:white;
+
+}
+/* custom property */
+
+/* header start */
+header{
+    margin: 10px auto;
+    width: 80%;
+    height: 90vh;
+    background-color: blueviolet;
+    background-image: linear-gradient(90deg,rgba(2,15,42,.5),rgba(2,15,42,0));
+    display: flex;
+    position: relative;
+}
+.header-text{
+    width: 40%;
+    color: var(--white);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.header-text p{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.header-text a{
+    text-decoration: none;
+    color: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.watch-icon{
+    font-size: 20px;
+}
+.header-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-img img{
+    width: 100%;
+}
+
+/* header finish */
+
