@@ -159,3 +159,32 @@ main{
 }
 /* view all match btn end */
 
+/* footer start */
+footer{
+    margin-top: 15%;
+    background-color: var(--bluvlt);
+    text-align: center;
+    height: 200px;
+    color: var(--white);
+    letter-spacing: 2pt;
+    padding: 20px;
+}
+#nav h2{
+    margin-bottom: 50px;
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#follow-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+#follow-us a{
+    color: var(--white);
+}
+/* footer end */
