@@ -22,6 +22,10 @@ header{
     border-radius: 20px;
     display: flex;
     position: relative;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-out;
 }
 .header-text{
     width: 40%;
@@ -31,6 +35,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
 }
 .header-text p{
     font-size: 10px;
@@ -58,6 +63,13 @@ header{
 }
 
 /* header finish */
+
+/* header animation */
+@keyframes color{
+    from{background-color: var(--white);}
+    to{background-color: var(--bluvlt);}
+}
+/* header animation */
 
 /* sidebar start */
 aside{
