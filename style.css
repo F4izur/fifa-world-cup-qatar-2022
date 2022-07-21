@@ -256,7 +256,8 @@ footer{
     }
     .header-img {
         width: 50%;
-        align-self: center;
+        height: 100px;
+        align-self: flex-end;
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -267,10 +268,14 @@ footer{
         position: static;
         width: 80%;
         margin-top: 20px;
-        width: 80%;
+        column-gap: 30px;
+        justify-items: center;
     }
     aside{
         width: 80%;
+        height: 330px;
+        display: flex;
+        flex-direction: column;
     }
 
 }
