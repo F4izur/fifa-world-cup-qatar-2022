@@ -14,7 +14,7 @@
 
 /* header start */
 header{
-    margin: 10px auto;
+    margin: 30px auto;
     width: 80%;
     height: 90vh;
     background-color: blueviolet;
@@ -70,7 +70,6 @@ header{
     to{background-color: var(--bluvlt);}
 }
 /* header animation */
-
 /* sidebar start */
 aside{
     width: 312px;
@@ -201,3 +200,78 @@ footer{
     color: var(--white);
 }
 /* footer end */
+
+/* responsive tablet devices start */
+@media only screen and (max-width: 992px) {
+    .header-text {
+        width: 60%;
+        padding: 50px;
+    }
+    aside{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 100px;
+        width: 80%;
+    }
+    #grid {
+        width: 60%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 70px auto;
+        position: static;
+    }
+    #view-all{
+        display: block;
+        margin-top: -10%;
+        border: none;
+    }
+    #view-all a{
+        text-decoration: none;
+        color: var(--white);
+        border: 0px solid var(--bluvlt);
+        background-color:var(--bluvlt);
+        border-radius: 8px;
+        font-size: normal;
+        padding: 10px 30px;
+        opacity: .8;
+    }
+    footer{
+        margin-top: 50px;
+    }
+}
+/* responsive for tablet devices end */
+
+/* responsive for mobile devices start */
+@media only screen and (min-width:375px) and (max-width:768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-text {
+        width: 100%;
+        height: 300px;
+    }
+    .header-img {
+        width: 50%;
+        align-self: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        position: static;
+        width: 80%;
+        margin-top: 20px;
+        width: 80%;
+    }
+    aside{
+        width: 80%;
+    }
+
+}
+/* responsive for mobile devices end */
