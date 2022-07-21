@@ -277,6 +277,9 @@ footer{
         display: flex;
         flex-direction: column;
     }
+    #view-all{
+        display: none;
+    }
 
 }
 /* responsive for mobile devices end */
